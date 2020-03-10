@@ -10,8 +10,8 @@ class Person {
     return hello;
 }
 }
-// new instance
-let person = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
+
+let person = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives.'] )
 let greeting = person.Hello();
 console.log(greeting)
 module.exports = {Person}
