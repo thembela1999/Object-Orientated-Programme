@@ -2,7 +2,7 @@ let myTest = require("../src/person");
 
 let person = new myTest.Person('Ryan', 30, 'male', ['being a hardarse', 'agile', 'ssd hard drives'])
 
-  describe ("function 'hello' in a class 'person'", function() {
+  describe ("constructor in a class hello", function() {
 
   it("should return name", function() {
     expect(person.name).toEqual("Ryan");
